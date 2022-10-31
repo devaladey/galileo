@@ -1,0 +1,145 @@
+.header {
+    background-color: var(--color-dark-blue);
+    color: var(--color-white);
+    position: relative;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    height: 90vh;
+    max-width: 110rem;
+    margin: 0 auto;
+    width: 90%;
+    padding: 3rem 0;
+}
+
+.header__innerLeft {
+    width: 65rem;
+}
+
+.header__title {
+    font-size: 8rem;
+    line-height: 1;
+}
+
+.header__para {
+    font-size: 1.8rem;
+    width: 50rem;
+    margin-top: 2rem;
+    line-height: 1.5;
+}
+
+.header__innerRight {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__img {
+    height: 35rem;
+    display: block;
+    border-radius: 3rem;
+}
+
+
+
+
+@media screen and (max-width: 920px) {
+
+    .header__innerLeft {
+        width: auto;
+    }
+
+    .header__inner {
+        height: auto;
+        padding: 5rem 0;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header__title {
+        font-size: 6.5rem;
+        line-height: 1.4;
+        letter-spacing: .2rem;
+    }
+
+    .header__para {
+        width: 90%;
+        letter-spacing: .2rem;
+        font-size: 1.7rem;
+    }
+
+    .header__innerRight {
+        width: 100%;
+
+    }
+
+    .header__img {
+        height: 45rem;
+        margin: 5rem 0;
+    }
+}
+
+
+@media screen and (max-width: 630px) { 
+    .header__title {
+        font-size: 5rem;
+        line-height: 1.4;
+        letter-spacing: .2rem;
+        text-align: center;
+    }
+
+    .header__para {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        letter-spacing: .2rem;
+        font-size: 1.7rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) { 
+    .header__title {
+        font-size: 4.5rem;
+        line-height: 1.4;
+    }
+
+    .header__para {
+        font-size: 1.7rem;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 450px) { 
+    .header__title {
+        font-size: 4rem;
+        line-height: 1.4;
+        letter-spacing: 1;
+    }
+
+    .header__para {
+        font-size: 1.7rem;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) { 
+    .header__title {
+        font-size: 3.5rem;
+    }
+
+    .header__para {
+        font-size: 1.7rem;
+        width: 100%;
+    }
+
+    .header__img {
+        height: 35rem;
+        width: 100%;
+    }
+}

@@ -1,0 +1,148 @@
+.header {
+    background-color: var(--color-dark-blue);
+    color: var(--color-white);
+    position: relative;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    height: 90vh;
+    max-width: 110rem;
+    margin: 0 auto;
+    width: 90%;
+    padding: 3rem 0;
+}
+
+.header__innerLeft {
+    width: 65rem;
+    /* padding: 7% 0% 7% 10%; */
+}
+
+.header__title {
+    font-size: 8rem;
+    line-height: 1;
+}
+
+.header__para {
+    font-size: 1.8rem;
+    width: 50rem;
+    margin-top: 2rem;
+    line-height: 1.5;
+}
+
+.header__innerRight {
+    flex: 1;
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__imgBx {
+    /* height: 100%; */
+}
+
+.header__img {
+    height: 35rem;
+    /* height: 60vw; */
+    display: block;
+    border-radius: 2rem;
+    /* transform: translate( -5rem, 17.5%); */
+}
+
+
+
+
+@media screen and (max-width: 1100px) {
+    .header__img {
+        height: 75%;
+        display: block;
+        transform: translate( -5rem, 33.2%);
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .header__img {
+        height: 65%;
+        display: block;
+        transform: translate( -5rem, 53.6%);
+    }
+}
+
+@media screen and (max-width: 1010px) {
+    .Header_header__img__Yfquy {
+        /* width: 35rem; */
+        height: 85%;
+        display: block;
+        transform: translate( 0,17.5%);
+
+    }
+}
+
+@media screen and (max-width: 910px) {
+    .header__inner {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+    .header__innerLeft {
+        width: auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 7rem 0 3rem;
+    }
+
+    .header__title {
+        font-size: 6rem;
+        line-height: 1.4;
+        letter-spacing: .2rem;
+    }
+
+    .header__para {
+        width: 90%;
+        width: 50rem;
+        letter-spacing: .2rem;
+    }
+
+    .header__img {
+        width: 35rem;
+        height: 85%;
+        display: block;
+        transform: translate( 0, 0);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header__title {
+        font-size: 4rem;
+        letter-spacing: .2rem;
+        width: 30rem;
+    }
+
+    .header__para {
+        line-height: 1.4;
+        margin-top: 1rem;
+        letter-spacing: .1rem;
+    }
+
+    .header__img {
+        transform: translateY(0%);
+        height: 50rem;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .header__para {
+        width: 90%;
+    }
+}
+
+
